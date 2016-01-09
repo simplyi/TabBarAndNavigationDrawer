@@ -19,7 +19,14 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+ 
+    @IBAction func leftSideButtonTapped(sender: AnyObject) {
+    
+        // Access an instance of AppDelegate
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        // Reference drawerContainer object declared inside of AppDelegate and call toggleDrawerSide function on it
+        appDelegate.drawerContainer?.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+    }
 }
 

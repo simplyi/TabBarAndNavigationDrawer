@@ -15,6 +15,13 @@
 		947350341C2DFEBD0083A6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947350321C2DFEBD0083A6FD /* LaunchScreen.storyboard */; };
 		9473503F1C2DFEBE0083A6FD /* TabbarHanburgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473503E1C2DFEBE0083A6FD /* TabbarHanburgerTests.swift */; };
 		9473504A1C2DFEBE0083A6FD /* TabbarHanburgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947350491C2DFEBE0083A6FD /* TabbarHanburgerUITests.swift */; };
+		947350581C2DFFD40083A6FD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947350571C2DFFD40083A6FD /* TabBarViewController.swift */; };
+		9473505F1C2E02B90083A6FD /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473505E1C2E02B90083A6FD /* LeftSideViewController.swift */; };
+		947350611C2E02DA0083A6FD /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947350601C2E02DA0083A6FD /* RightSideViewController.swift */; };
+		9473506B1C2E03AC0083A6FD /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 947350631C2E03AC0083A6FD /* MMDrawerBarButtonItem.m */; };
+		9473506C1C2E03AC0083A6FD /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947350651C2E03AC0083A6FD /* MMDrawerController.m */; };
+		9473506D1C2E03AC0083A6FD /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 947350681C2E03AC0083A6FD /* MMDrawerVisualState.m */; };
+		9473506E1C2E03AC0083A6FD /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9473506A1C2E03AC0083A6FD /* UIViewController+MMDrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,19 @@
 		947350451C2DFEBE0083A6FD /* TabbarHanburgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarHanburgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947350491C2DFEBE0083A6FD /* TabbarHanburgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarHanburgerUITests.swift; sourceTree = "<group>"; };
 		9473504B1C2DFEBE0083A6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947350571C2DFFD40083A6FD /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9473505A1C2E00FA0083A6FD /* TabbarHanburger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbarHanburger-Bridging-Header.h"; sourceTree = "<group>"; };
+		9473505E1C2E02B90083A6FD /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		947350601C2E02DA0083A6FD /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
+		947350621C2E03AC0083A6FD /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		947350631C2E03AC0083A6FD /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		947350641C2E03AC0083A6FD /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		947350651C2E03AC0083A6FD /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		947350661C2E03AC0083A6FD /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		947350671C2E03AC0083A6FD /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		947350681C2E03AC0083A6FD /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		947350691C2E03AC0083A6FD /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		9473506A1C2E03AC0083A6FD /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		947350261C2DFEBD0083A6FD /* TabbarHanburger */ = {
 			isa = PBXGroup;
 			children = (
+				947350591C2E00EA0083A6FD /* MMDrawer */,
 				947350271C2DFEBD0083A6FD /* AppDelegate.swift */,
 				947350291C2DFEBD0083A6FD /* FirstViewController.swift */,
 				9473502B1C2DFEBD0083A6FD /* SecondViewController.swift */,
@@ -106,6 +127,9 @@
 				947350301C2DFEBD0083A6FD /* Assets.xcassets */,
 				947350321C2DFEBD0083A6FD /* LaunchScreen.storyboard */,
 				947350351C2DFEBD0083A6FD /* Info.plist */,
+				947350571C2DFFD40083A6FD /* TabBarViewController.swift */,
+				9473505E1C2E02B90083A6FD /* LeftSideViewController.swift */,
+				947350601C2E02DA0083A6FD /* RightSideViewController.swift */,
 			);
 			path = TabbarHanburger;
 			sourceTree = "<group>";
@@ -126,6 +150,23 @@
 				9473504B1C2DFEBE0083A6FD /* Info.plist */,
 			);
 			path = TabbarHanburgerUITests;
+			sourceTree = "<group>";
+		};
+		947350591C2E00EA0083A6FD /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				947350621C2E03AC0083A6FD /* MMDrawerBarButtonItem.h */,
+				947350631C2E03AC0083A6FD /* MMDrawerBarButtonItem.m */,
+				947350641C2E03AC0083A6FD /* MMDrawerController.h */,
+				947350651C2E03AC0083A6FD /* MMDrawerController.m */,
+				947350661C2E03AC0083A6FD /* MMDrawerController+Subclass.h */,
+				947350671C2E03AC0083A6FD /* MMDrawerVisualState.h */,
+				947350681C2E03AC0083A6FD /* MMDrawerVisualState.m */,
+				947350691C2E03AC0083A6FD /* UIViewController+MMDrawerController.h */,
+				9473506A1C2E03AC0083A6FD /* UIViewController+MMDrawerController.m */,
+				9473505A1C2E00FA0083A6FD /* TabbarHanburger-Bridging-Header.h */,
+			);
+			name = MMDrawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947350581C2DFFD40083A6FD /* TabBarViewController.swift in Sources */,
 				9473502C1C2DFEBD0083A6FD /* SecondViewController.swift in Sources */,
+				9473506C1C2E03AC0083A6FD /* MMDrawerController.m in Sources */,
+				9473506E1C2E03AC0083A6FD /* UIViewController+MMDrawerController.m in Sources */,
+				9473506D1C2E03AC0083A6FD /* MMDrawerVisualState.m in Sources */,
 				947350281C2DFEBD0083A6FD /* AppDelegate.swift in Sources */,
+				9473505F1C2E02B90083A6FD /* LeftSideViewController.swift in Sources */,
 				9473502A1C2DFEBD0083A6FD /* FirstViewController.swift in Sources */,
+				947350611C2E02DA0083A6FD /* RightSideViewController.swift in Sources */,
+				9473506B1C2E03AC0083A6FD /* MMDrawerBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +449,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TabbarHanburger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargopolov.TabbarHanburger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabbarHanburger/TabbarHanburger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TabbarHanburger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargopolov.TabbarHanburger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabbarHanburger/TabbarHanburger-Bridging-Header.h";
 			};
 			name = Release;
 		};
